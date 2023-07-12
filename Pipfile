@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+whisper = {editable = true, git = "https://github.com/openai/whisper.git"}
+ffmpeg-python = "*"
+numpy = "*"
+torch = "*"
+tqdm = "*"
+more-itertools = "*"
+transformers = "*"
+pathlib = "*"
+ipywidgets = "*"
+pydub = "*"
+
+[dev-packages]
+jupyterlab = "*"
+
+[requires]
+python_version = "3.10"
