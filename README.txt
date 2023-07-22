@@ -1,5 +1,6 @@
 TranscriptionTool v1.0
 ----------------------
+A simple audio transcription and translation tool built on OpenAI's Whisper models.
 
 Requires Python 3.10+
 https://www.python.org/downloads/
