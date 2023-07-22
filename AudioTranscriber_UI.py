@@ -8,7 +8,7 @@ with gr.Blocks() as my_demo:
     inp_modelType = gr.Radio(choices=['Tiny', 'Base', 'Small', 'Medium', 'Large'], value='Medium', type='value', label='Model Size', info='Tiny/Base are faster but less accurate, Medium/Large are slower but more accurate. Use larger models for translation tasks.', interactive=True)
     gr.Markdown('## Inputs')
     inp_inputFiles = gr.File(file_count="multiple", label="Audio files to use as input.")
-    inp_outputFolder = gr.File(file_count='directory', label='Folder to store all outputs.')
+    inp_outputFolder = gr.File(label="Model Outputs")
     
     
     
